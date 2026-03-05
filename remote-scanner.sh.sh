@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# ==========================================================
-# Student Name: liat dalgo
-# Student Code: s14
-# Unit Code: TMagen773637
-# Program Code: NX201
-# Lecturer: remote control
-# ==========================================================
 
 # --- Configuration & Variables ---
 # 
@@ -128,3 +121,4 @@ sshpass -p "$R_PASS" ssh "$R_USER@$R_HOST" "rm -rf ~/remote_tmp"
 echo -e "${GREEN}[+] Process Complete.${NC}"
 echo -e "[*] Reports saved in: $LOCAL_REPORTS"
 log_event "Results successfully retrieved. Script finished."
+
